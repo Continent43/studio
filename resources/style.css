@@ -1,443 +1,183 @@
-*,
-*::after {
-  box-sizing: border-box;
+body {
+  /* background-color: black;
+  background-image: url(images/snow1.gif);
+  background-size: cover; */
+  font-family: helvetica;
 }
 
-
-html{
-  font-size: 16px;
-  font-family: "Roboto";
-}
-
-
-.flex {
-  display: flex;
-}
-header{
-  width: 100%;
-  height: 64px;
-  padding: 0 24px;
-  border-bottom: 1px solid;
-  align-items: center;
-  top: 0;
-  position: fixed;
-  background-color: white;
-  justify-content: space-between;
-  z-index: 30;
-}
-
-.mobile{
-  display: none;
-}
-
-.colmar{
-    font-weight: bold;
-}
-
-.logo{
-  align-items: center;
-  height: 2rem;
-}
-
-nav{
-  justify-content: space-around;
-  margin-right: 4rem;
-  align-items: center;
-}
-header a {
-  margin-left: 1rem;
-}
-
-.main-content{
-  padding: 32px 24px;
-  margin-top: 16px;
-  background-color: #FFFBF6;
-  display: flex;
-}
-
-.banpic{
-  width: 60%;
-  padding-right: 24px;
-}
-.banpic img{
-  width: 100%;
-  height: auto;
-  padding-top: 3rem;
-}
-
-.container{
-  position: relative;
-  z-index: 15;
-  display: flex;
-}
-.bannertext{
-  flex-direction: column;
-  padding-top: 5rem;
-  justify-content: center;
-  margin-right: 2rem;
-
-
-}
-
-.bannertext h1{
-  font-size: 2.1rem;
-  font-weight: bold;
-  margin: 1rem;
-  padding-top: 1.5rem;
-}
-
-
-.bannertext h2{
-  font-size: 1.1rem;
-  font-weight: 400;
-  margin: 1rem;
-}
-
-.button{
-  display: flex;
-  padding: 0.5rem;
-  background-color: #994d00;
+h1{
+  font-size: 100px;
   color: white;
-  justify-content: center;
-  margin: 1rem;
-  font-size: 0.9rem;
-}
-
-.practicing{
-  background-color: #E8E0D1;
-  width: 100%;
-
-}
-
-.leftside {
-  width: 60%;
-  padding: 32px 24px;
-  border-right:1px solid #D8D8D8;
-}
-
-.leftside img{
-  width: 100%;
-  height: auto;
-}
-
-.leftside h2{
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-  font-size: 1.2rem;
   font-weight: bold;
-}
-
-.leftside p{
-  margin-top: 1rem;
-  font-size: 0.8rem;
-}
-.leftside .credits{
-  margin-top: 1rem;
-  font-size: 0.6rem;
-}
-
-.thumbnails{
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 40%;
 
 }
 
-.practicing .thumb-container {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #D8D8D8;
-}
+.player{
+text-align: center;
+opacity: 0.2;
 
-.practicing .thumb-containerH {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #D8D8D8;
-  background-color: #89A5B2;
-}
 
-.thumbpic{
-  width: 35%;
-  height: auto;
-  display: block;
-  padding: 1rem;
 }
-.thumbpic img{
-  width: 100%;
-  height: auto;
-}
-.thumbtext{
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 65%;
-}
-
-.thumbtext a{
-  color: #4d4dff;
-}
-
-a:hover{
-  text-decoration: underline;
-}
-
-.thumbtext p{
-  padding-bottom: 0.5rem;
-  font-size: 0.9rem;
-}
-.practicing .thumbnails h3{
-  font-weight: bold;
-  padding-bottom: 0.5rem;
-}
-
-.learning{
-  background-color: #FFFBF6;
-}
-
-.learning h1{
-  padding-top: 2rem;
+#hideMe {
   text-align: center;
-  font-weight: bold;
-  font-size: 1.8rem;
-}
-.sixsq{
-  width: auto;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 2rem 4rem;
+  margin-top: 25px;
 
-}
-
-.square{
-  width: 30%;
-  padding-bottom: 2rem;
-}
-.square .pic{
-  width: 100%;
-  height: auto;
+    -moz-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 
-.pic img{
-  width: 100%;
-  height: auto;
-}
-.square .info{
-  background-color: #E8E0D1;
-  align-content: center;
-  padding: 1rem 0rem 1.5rem 1rem;
-}
-
-.info h2{
-  font-weight: bold;
-  font-size: 1.2rem;
-  padding:
-}
-
-.info h3{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-.info p{
-
-}
-
-.exhibit{
-  width: 100%;
-  background-color: #FFF9E5;
-}
-
-.exhibit h1{
+.hide {
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  font-weight: bold;
-  font-size: 1.8rem;
+  margin-top: 25px;
+
+    -moz-animation: cssAnimation 0s ease-in 60s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 60s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 60s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 60s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+
+audio{
+align
 
 }
 
-.exhibit .left{
-  width: 60%;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
 }
 
-
-.left video{
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
   width: 100%;
-  padding: 0rem 1rem 1.5rem 1.5rem;
+  padding: 20px;
 }
 
-.left .info{
-  padding-left: 1.5rem;
-  width: 95%;
-  padding-bottom: 2rem;
-}
-.info h2{
-  padding-bottom: 0.5rem;
-}
-
-.exhibit .thumbnails h3{
-  font-weight: bold;
-  padding-bottom: 0.5rem;
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
 }
 
-.exhibit .thumbtext{
-  width: 44%;
+#myBtn:hover {
+  background: #ddd;
+  color: black;
 }
 
-.exhibit .thumb-container {
-  display: flex;
-  align-items: center;
-}
-.exhibit .thumb-containerH {
-  display: flex;
-  align-items: center;
-  background-color: #89A5B2;
-}
+#showme{
+  margin-top: 50px;
+    font-size: 15px;
+    text-align: center;
+    animation: fadein 60s;
+    -moz-animation: fadein 60s; /* Firefox */
+    -webkit-animation: fadein 60s; /* Safari and Chrome */
+    -o-animation: fadein 60s; /* Opera */
 
-footer {
-  border-top: 1px solid;
-  justify-content: space-between;
-  padding: 1rem 1.5rem 1.5rem 1.5rem;
-  font-size: 0.8rem;
-  background-color: #89A5B2;
 }
 
+/* #showme2{
+  margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    -moz-animation: fadein 30s; /* Firefox */
+    -webkit-animation: fadein 30s; /* Safari and Chrome */
+    -o-animation: fadein 30s; /* Opera */
 
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+}
+/* #showme{
+  margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+} */
 
-@media only screen and (max-width: 600px) {
-  .flex .logo{
-    display: none;
-  }
-  .flex nav{
-    display: none;
-    height: 4rem;
-  }
-  .mobile{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
-  }
-  .banpic{
-    width: 100%;
-    padding: 0rem;
-  }
-  .banpic img{
-    width: 100%;
-  }
-  .main-content{
-    display: inline;
-    width: 100%;
-    padding: 0rem;
+
+@keyframes fadein {
+    from {
+        opacity:0;
     }
-
-    .bannertext{
-      padding: 1rem 1rem;
-
+    to {
+        opacity:0.4;
     }
-
-    .bannertext h1{
-      padding: 1rem;
-      margin: 0rem;
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
     }
-
-    .bannertext h2{
-      padding-bottom: 1rem;
+    to {
+        opacity:0.4;
     }
-
-    .leftside{
-      display: none;
-      width: 0%;
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
     }
-
-    .practicing {
-      border-top: 1px solid;
-      border-bottom: 1px solid;
+    to {
+        opacity:0.4;
     }
-
-    .practicing .thumbnails{
-      padding: 1rem 1rem;
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
     }
-
-    .practicing .thumbnails{
-      width: 100%;
-
+    to {
+        opacity: 0.4;
     }
-    .practicing .thumb-container{
-      display: inline;
-      border-bottom: none;
-    }
-    .thumbtext{
-      padding-left: 1rem;
-    }
-    .practicing .thumbpic{
-      width: 100%;
-      height: auto;
-    }
-
-    .practicing .thumbpic img{
-      height: 30%;
-    }
-
-    .sixsq{
-      flex-flow: wrap column;
-      align-items: center;
-    }
-
-    .sixsq .pic{
-      display: none;
-    }
-
-    .sixsq .info h3{
-      display: none;
-    }
-
-    .sixsq .info p{
-      display: none;
-    }
-    .sixsq .info{
-      padding: 1rem;
-    }
-
-    .sixsq .square{
-      width: 100%;
-      text-align: left;
-
-    }
-
-    .holder {
-      padding: 1rem 0rem 1.5rem 0rem;
-    }
-    .exhibit .left{
-      width: 100%;
-
-    }
-
-    .exhibit{
-      border-top: 1px solid;
-    }
-
-    .exhibit h1{
-      padding-bottom: 0rem;
-    }
-
-    .exhibit video{
-      padding: 0rem;
-    }
-
-    .left .info{
-      display: none;
-    }
-
-    .exhibit .thumbnails{
-      display: none;
-    }
-
-    footer{
-      border-top: none;
-      padding: 1rem 1rem;
-    }
-
-
-
-
 }
