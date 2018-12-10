@@ -1,0 +1,443 @@
+*,
+*::after {
+  box-sizing: border-box;
+}
+
+
+html{
+  font-size: 16px;
+  font-family: "Roboto";
+}
+
+
+.flex {
+  display: flex;
+}
+header{
+  width: 100%;
+  height: 64px;
+  padding: 0 24px;
+  border-bottom: 1px solid;
+  align-items: center;
+  top: 0;
+  position: fixed;
+  background-color: white;
+  justify-content: space-between;
+  z-index: 30;
+}
+
+.mobile{
+  display: none;
+}
+
+.colmar{
+    font-weight: bold;
+}
+
+.logo{
+  align-items: center;
+  height: 2rem;
+}
+
+nav{
+  justify-content: space-around;
+  margin-right: 4rem;
+  align-items: center;
+}
+header a {
+  margin-left: 1rem;
+}
+
+.main-content{
+  padding: 32px 24px;
+  margin-top: 16px;
+  background-color: #FFFBF6;
+  display: flex;
+}
+
+.banpic{
+  width: 60%;
+  padding-right: 24px;
+}
+.banpic img{
+  width: 100%;
+  height: auto;
+  padding-top: 3rem;
+}
+
+.container{
+  position: relative;
+  z-index: 15;
+  display: flex;
+}
+.bannertext{
+  flex-direction: column;
+  padding-top: 5rem;
+  justify-content: center;
+  margin-right: 2rem;
+
+
+}
+
+.bannertext h1{
+  font-size: 2.1rem;
+  font-weight: bold;
+  margin: 1rem;
+  padding-top: 1.5rem;
+}
+
+
+.bannertext h2{
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 1rem;
+}
+
+.button{
+  display: flex;
+  padding: 0.5rem;
+  background-color: #994d00;
+  color: white;
+  justify-content: center;
+  margin: 1rem;
+  font-size: 0.9rem;
+}
+
+.practicing{
+  background-color: #E8E0D1;
+  width: 100%;
+
+}
+
+.leftside {
+  width: 60%;
+  padding: 32px 24px;
+  border-right:1px solid #D8D8D8;
+}
+
+.leftside img{
+  width: 100%;
+  height: auto;
+}
+
+.leftside h2{
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.leftside p{
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+.leftside .credits{
+  margin-top: 1rem;
+  font-size: 0.6rem;
+}
+
+.thumbnails{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+
+}
+
+.practicing .thumb-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #D8D8D8;
+}
+
+.practicing .thumb-containerH {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #D8D8D8;
+  background-color: #89A5B2;
+}
+
+.thumbpic{
+  width: 35%;
+  height: auto;
+  display: block;
+  padding: 1rem;
+}
+.thumbpic img{
+  width: 100%;
+  height: auto;
+}
+.thumbtext{
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 65%;
+}
+
+.thumbtext a{
+  color: #4d4dff;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.thumbtext p{
+  padding-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+.practicing .thumbnails h3{
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.learning{
+  background-color: #FFFBF6;
+}
+
+.learning h1{
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.sixsq{
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem 4rem;
+
+}
+
+.square{
+  width: 30%;
+  padding-bottom: 2rem;
+}
+.square .pic{
+  width: 100%;
+  height: auto;
+}
+
+.pic img{
+  width: 100%;
+  height: auto;
+}
+.square .info{
+  background-color: #E8E0D1;
+  align-content: center;
+  padding: 1rem 0rem 1.5rem 1rem;
+}
+
+.info h2{
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding:
+}
+
+.info h3{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.info p{
+
+}
+
+.exhibit{
+  width: 100%;
+  background-color: #FFF9E5;
+}
+
+.exhibit h1{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+
+}
+
+.exhibit .left{
+  width: 60%;
+}
+
+
+.left video{
+  width: 100%;
+  padding: 0rem 1rem 1.5rem 1.5rem;
+}
+
+.left .info{
+  padding-left: 1.5rem;
+  width: 95%;
+  padding-bottom: 2rem;
+}
+.info h2{
+  padding-bottom: 0.5rem;
+}
+
+.exhibit .thumbnails h3{
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.exhibit .thumbtext{
+  width: 44%;
+}
+
+.exhibit .thumb-container {
+  display: flex;
+  align-items: center;
+}
+.exhibit .thumb-containerH {
+  display: flex;
+  align-items: center;
+  background-color: #89A5B2;
+}
+
+footer {
+  border-top: 1px solid;
+  justify-content: space-between;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+  font-size: 0.8rem;
+  background-color: #89A5B2;
+}
+
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+@media only screen and (max-width: 600px) {
+  .flex .logo{
+    display: none;
+  }
+  .flex nav{
+    display: none;
+    height: 4rem;
+  }
+  .mobile{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+  }
+  .banpic{
+    width: 100%;
+    padding: 0rem;
+  }
+  .banpic img{
+    width: 100%;
+  }
+  .main-content{
+    display: inline;
+    width: 100%;
+    padding: 0rem;
+    }
+
+    .bannertext{
+      padding: 1rem 1rem;
+
+    }
+
+    .bannertext h1{
+      padding: 1rem;
+      margin: 0rem;
+    }
+
+    .bannertext h2{
+      padding-bottom: 1rem;
+    }
+
+    .leftside{
+      display: none;
+      width: 0%;
+    }
+
+    .practicing {
+      border-top: 1px solid;
+      border-bottom: 1px solid;
+    }
+
+    .practicing .thumbnails{
+      padding: 1rem 1rem;
+    }
+
+    .practicing .thumbnails{
+      width: 100%;
+
+    }
+    .practicing .thumb-container{
+      display: inline;
+      border-bottom: none;
+    }
+    .thumbtext{
+      padding-left: 1rem;
+    }
+    .practicing .thumbpic{
+      width: 100%;
+      height: auto;
+    }
+
+    .practicing .thumbpic img{
+      height: 30%;
+    }
+
+    .sixsq{
+      flex-flow: wrap column;
+      align-items: center;
+    }
+
+    .sixsq .pic{
+      display: none;
+    }
+
+    .sixsq .info h3{
+      display: none;
+    }
+
+    .sixsq .info p{
+      display: none;
+    }
+    .sixsq .info{
+      padding: 1rem;
+    }
+
+    .sixsq .square{
+      width: 100%;
+      text-align: left;
+
+    }
+
+    .holder {
+      padding: 1rem 0rem 1.5rem 0rem;
+    }
+    .exhibit .left{
+      width: 100%;
+
+    }
+
+    .exhibit{
+      border-top: 1px solid;
+    }
+
+    .exhibit h1{
+      padding-bottom: 0rem;
+    }
+
+    .exhibit video{
+      padding: 0rem;
+    }
+
+    .left .info{
+      display: none;
+    }
+
+    .exhibit .thumbnails{
+      display: none;
+    }
+
+    footer{
+      border-top: none;
+      padding: 1rem 1rem;
+    }
+
+
+
+
+}
